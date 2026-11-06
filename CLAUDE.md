@@ -85,3 +85,7 @@ Add a line to the right file in `src/map/domains/`, then run `npm test`. Check a
 ## Ideas for later
 
 Freshness (a v2 discussion, deliberately out of v1): a "Pulse" of current terms would need live sources, and Hacker News, dev.to, GitHub and Wikipedia all allow browser calls while Lobsters and arXiv need a proxy. Also shareable brain cards, comparing two brains, a "prove it" spot-check, and a 3D plate.
+
+## Growing the map
+
+Researched sources, licenses and import cautions are in `docs/term-sources.md`. The recommendation there, not yet decided: keep the 771-term core as the only thing the percentage is scored against, and treat bulk imports as an unscored deep layer, or every score collapses to a few percent.
