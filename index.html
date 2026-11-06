@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Techonomy</title>
+    <meta name="description" content="An atlas of what you know in tech. Say what you know and watch your brain light up." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Set the theme before first paint so nothing flashes.
+      try {
+        var saved = localStorage.getItem('techonomy:theme')
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
